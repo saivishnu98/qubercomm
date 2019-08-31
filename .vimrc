@@ -1,0 +1,3 @@
+set smartindent
+set autoindent
+

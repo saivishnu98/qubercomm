@@ -1,0 +1,1 @@
+cmd_/home/sudavasu-1/Desktop/qubercomm/kthread.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/sudavasu-1/Desktop/qubercomm/kthread.ko /home/sudavasu-1/Desktop/qubercomm/kthread.o /home/sudavasu-1/Desktop/qubercomm/kthread.mod.o ;  true

@@ -760,9 +760,6 @@ deps_/home/sudavasu-1/Desktop/qubercomm/kthread.o := \
     $(wildcard include/config/cgroup/hugetlb.h) \
     $(wildcard include/config/cgroup/pids.h) \
     $(wildcard include/config/cgroup/debug.h) \
-  include/linux/delay.h \
-  arch/x86/include/asm/delay.h \
-  include/asm-generic/delay.h \
 
 /home/sudavasu-1/Desktop/qubercomm/kthread.o: $(deps_/home/sudavasu-1/Desktop/qubercomm/kthread.o)
 

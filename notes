@@ -1,0 +1,12 @@
+kthread
+
+
+    ts1 = kthread_run(kthread_func, NULL, "thread-1");
+    if (IS_ERR(ts1)) {
+        printk(KERN_INFO "ERROR: Cannot create thread ts1\n");
+        err = PTR_ERR(ts1);
+        ts1 = NULL;
+        return err;
+    }
+
+    printk(KERN_INFO "I am thread: %s[PID = %d]\n", current->comm, current->pid);
